@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 # path
 path = "F:\\MEGA\\Zdjecia\\2016"
-path_test = "C:\\Users\\szymo\\Desktop\\dupa"
+path_test = "C:\\Users\\szymo\\Desktop"
 
 # exif strings
 focal_length = 'EXIF FocalLength'
@@ -43,7 +43,7 @@ def calculate(exif_list, k, dictionary, do_round=False, round_value=0):
         if do_round:
             value = round(eval(value), round_value)
         add_or_update_dict(dictionary, value)
-        print(k, " ", value)
+        #print(k, " ", value)
 
 
 def plot_histogram(dictionary, name):

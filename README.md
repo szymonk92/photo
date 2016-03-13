@@ -12,3 +12,6 @@ Easy get data as:
 - ISO
 - Aperture(F)
 - Exposure time
+
+
+![Histogram](histogram.png)
